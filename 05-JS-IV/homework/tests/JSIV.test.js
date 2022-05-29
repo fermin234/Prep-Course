@@ -98,7 +98,7 @@ describe('nuevoUsuario(nombre, email, password)', function() {
     expect(nuevoUsuario(user2.nombre, user2.email, user2.password)).toEqual(user2);
   });
 });
-
+  
 describe('tieneEmail(user)', function() {
   it('should return true if the user object has a value for its email property', function() {
     expect(tieneEmail({ usernombre: 'Samuel', email: 'samuel@email.com' })).toEqual(true);
@@ -211,6 +211,7 @@ describe('sumarLikesDeUsuario(user)', function() {
   });
 });
 
+  
 describe('agregarMetodoCalculoDescuento(storeItem)', function() {
   const storeItem = {
     precio: 80,
