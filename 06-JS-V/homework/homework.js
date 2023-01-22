@@ -82,7 +82,7 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   // (creado en el ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
-  var juan = new Persona('juan', 'Perez', 22, 'Saavedra 123');
+  var juan = new Persona(nombre, apellido, edad, dir);
   return juan;
 }
   
